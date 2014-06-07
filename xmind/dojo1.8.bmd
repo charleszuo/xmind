@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="2.0.7.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <information>
+    <Author />
+    <Company />
+    <Version>1.0</Version>
+    <Description />
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts>
+    <chart name="New Chart" type="MindMap">
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+      </style>
+      <nodes>
+        <node text="Dojo 1.8">
+          <style>
+            <back_color>LightGreen</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node text="Loader">
+              <style>
+                <back_color>#C0FFC0</back_color>
+              </style>
+              <nodes>
+                <node text="dojoConfig">
+                  <style>
+                    <back_color>#C0FFC0</back_color>
+                  </style>
+                  <nodes>
+                    <node text="baseUrl">
+                      <style>
+                        <back_color>#C0FFC0</back_color>
+                      </style>
+                    </node>
+                    <node text="tlmSiblingOfDojo">
+                      <style>
+                        <back_color>#C0FFC0</back_color>
+                      </style>
+                    </node>
+                    <node text="packages">
+                      <style>
+                        <back_color>#C0FFC0</back_color>
+                      </style>
+                    </node>
+                    <node text="async">
+                      <style>
+                        <back_color>#C0FFC0</back_color>
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="plug in">
+                  <style>
+                    <back_color>#C0FFC0</back_color>
+                  </style>
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>Plugin 只加载一次，并且Plugin会自己维护cache，相当于一个全局的单实例对象</description>
+                    </widget>
+                  </widgets>
+                  <nodes>
+                    <node text="dojo/domReady!">
+                      <style>
+                        <back_color>#C0FFC0</back_color>
+                      </style>
+                    </node>
+                    <node text="dojo/has">
+                      <style>
+                        <back_color>#C0FFC0</back_color>
+                      </style>
+                    </node>
+                    <node text="dojo/i18n">
+                      <style>
+                        <back_color>#C0FFC0</back_color>
+                      </style>
+                    </node>
+                    <node text="dojo/text">
+                      <style>
+                        <back_color>#C0FFC0</back_color>
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="dojo/ready">
+                  <style>
+                    <back_color>#C0FFC0</back_color>
+                  </style>
+                </node>
+                <node text="require">
+                  <style>
+                    <back_color>#C0FFC0</back_color>
+                  </style>
+                </node>
+              </nodes>
+            </node>
+            <node text="Event">
+              <style>
+                <back_color>#C0FFFF</back_color>
+              </style>
+              <nodes>
+                <node text="dojo/on">
+                  <style>
+                    <back_color>#C0FFFF</back_color>
+                  </style>
+                </node>
+                <node text="dojo/topic">
+                  <style>
+                    <back_color>#C0FFFF</back_color>
+                  </style>
+                </node>
+                <node text="dojo/aspect">
+                  <style>
+                    <back_color>#C0FFFF</back_color>
+                  </style>
+                </node>
+                <node text="dojo/evented">
+                  <style>
+                    <back_color>#C0FFFF</back_color>
+                  </style>
+                </node>
+                <node text="dojo/Stateful">
+                  <style>
+                    <back_color>#C0FFFF</back_color>
+                  </style>
+                </node>
+                <node text="event object">
+                  <style>
+                    <back_color>#C0FFFF</back_color>
+                  </style>
+                </node>
+              </nodes>
+            </node>
+            <node text="Request">
+              <style>
+                <back_color>#C0C0FF</back_color>
+              </style>
+              <nodes>
+                <node text="dojo/request">
+                  <style>
+                    <back_color>#C0C0FF</back_color>
+                  </style>
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>request.get(url, obj)
+request.post(url, obj)
+
+obj {
+method:  post, get, put, del
+sync:  true, false
+query:  string or key-value obj to pass parameter, for get
+data:   string or key-value obj to pass parameter, for post
+timeout: ms
+handleAs:  text, json, javascript, xml
+headers: key-value obj contains headers
+
+}</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="dojo/request/script">
+                  <style>
+                    <back_color>#C0C0FF</back_color>
+                  </style>
+                </node>
+                <node text="dojo/request/notify">
+                  <style>
+                    <back_color>#C0C0FF</back_color>
+                  </style>
+                </node>
+              </nodes>
+            </node>
+            <node text="Deferred">
+              <style>
+                <back_color>#FFFFC0</back_color>
+              </style>
+              <nodes>
+                <node text="dojo/promise">
+                  <style>
+                    <back_color>#FFFFC0</back_color>
+                  </style>
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>promise.then(data)
+
+promise.response.then(obj)</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="dojo/Deferred">
+                  <style>
+                    <back_color>#FFFFC0</back_color>
+                  </style>
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>Deferred.resolve(obj), Deferred.then(function(){}, function(){})
+
+Deferred用在异步调用的环境中，可以延迟执行callback
+
+Deferred.then（）返回callback的返回值，还可以继续调用then()</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="dojo/when">
+                  <style>
+                    <back_color>#FFFFC0</back_color>
+                  </style>
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>dojo/when:  when(promise/obj, callback)。when的第一个参数可以是一个promise或者是一个静态的object，第一个参数的结果作为参数传递给callback。when可以使callback在同步和异步的下都能执行</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="dojo/promise/all">
+                  <style>
+                    <back_color>#FFFFC0</back_color>
+                  </style>
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>dojo/promise/all可以将一组Deffered以规定的顺序串联起来，并提供一个统一的callback对这组Deffered的结果进行操作</description>
+                    </widget>
+                  </widgets>
+                </node>
+              </nodes>
+            </node>
+            <node text="DOM">
+              <style>
+                <back_color>#FFE0C0</back_color>
+              </style>
+              <nodes>
+                <node text="dojo/dom">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+                <node text="dojo/dom-attr">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+                <node text="dojo/dom-class">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+                <node text="dojo/dom-construct">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+                <node text="dojo/dom-form">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+                <node text="dojo/io-query">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+                <node text="dojo/dom-prop">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+                <node text="dojo/dom-style">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+                <node text="dojo/dom-geometry">
+                  <style>
+                    <back_color>#FFE0C0</back_color>
+                  </style>
+                </node>
+              </nodes>
+            </node>
+            <node text="Parser">
+              <nodes>
+                <node text="dojo/parser">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>dojo/parser可以parse 声明式的widget，也可以parse 声明式的Non-widget的object，parse的结果是全局变量
+
+dojo/parser 遇到data-dojo-type，会去加载module，如果没有require，会auto-require 声明式的module。尽量不要auto-require，可能会单独发起load，影响性能
+
+如果不用data-dojo-props, dojo.parser也会把声明式的markup属性parse到widget对应的公有属性，但不会parse到_开头的私有属性。</description>
+                    </widget>
+                  </widgets>
+                </node>
+              </nodes>
+            </node>
+            <node text="NodeList" />
+            <node text="Define Module/Class">
+              <nodes>
+                <node text="dojo/_base/define" />
+                <node text="dojo/_base/declare">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>declare.safeMixin()
+
+this.inherited可以调用父类方法
+
+declare会把第三个参数（对象字面量）放到类的prototype上，这样所有类的实例都公用一份对象字面量。当对象实例要修改某个属性时，会在对象实例里面创建一个属性，不会影响prototype上的公用对象</description>
+                    </widget>
+                  </widgets>
+                </node>
+              </nodes>
+            </node>
+            <node text="dijit">
+              <nodes>
+                <node text="dijit/_WidgetBase">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>dijit的生命周期
+
+	* constructor (common to all prototypes, called when instantiated)
+	* postscript (common to all prototypes built using declare)
+	* 
+		* create
+		* 
+			* postMixInProperties
+			* buildRendering
+			* postCreate
+
+
+	* startup
+
+domNode
+
+setter / getter attribute
+
+可以将dijit attributer 映射到 DOM attribute
+type可以为 attribute，innerHTML, class, 当 type="attribute"时，后面可以指定attribute="XXX"
+_setDemoAttr : {node: "imageNode", type: "attribute", attribute: "src"}
+_setDemoAttr : {node: "demoNode", type : "innerHTML" }
+_setDemoAttr : {node: "demoNode", type : "class" }
+_setDisabledAttr : {node: "demoNode", type : "attribute" }
+</description>
+                    </widget>
+                  </widgets>
+                </node>
+              </nodes>
+            </node>
+            <node text="Declaritive " />
+          </nodes>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>

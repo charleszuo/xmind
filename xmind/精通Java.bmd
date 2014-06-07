@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="2.0.7.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <information>
+    <Author />
+    <Company />
+    <Version>1.0</Version>
+    <Description />
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts>
+    <chart name="New Chart" type="MindMap">
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+      </style>
+      <nodes>
+        <node text="精通Java">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node text="Java新特性">
+              <nodes>
+                <node text="annotation" />
+                <node text="transian / volatilet" />
+                <node text="strictfp" />
+              </nodes>
+            </node>
+            <node text="阅读Java specification" />
+            <node text="了解JVM">
+              <nodes>
+                <node text="Cafe baby" />
+                <node text="JIT" />
+                <node text="垃圾回收" />
+              </nodes>
+            </node>
+            <node text="Open source libs" />
+          </nodes>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>

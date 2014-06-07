@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="2.0.7.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <information>
+    <Author />
+    <Company />
+    <Version>1.0</Version>
+    <Description />
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts>
+    <chart name="New Chart" type="MindMap">
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+      </style>
+      <nodes>
+        <node text="Team lead">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node text="1.理解需求，分解任务">
+              <style>
+                <back_color>#80FF80</back_color>
+              </style>
+            </node>
+            <node text="2.明确任务，目标，要求，完成时间，注意事项">
+              <style>
+                <back_color>#80FF80</back_color>
+              </style>
+            </node>
+            <node text="3.监控进度，评估质量">
+              <style>
+                <back_color>#80FF80</back_color>
+              </style>
+            </node>
+            <node text="4. 时间管理">
+              <style>
+                <back_color>#80FF80</back_color>
+              </style>
+            </node>
+            <node text="5.以身作则">
+              <style>
+                <back_color>#80FF80</back_color>
+              </style>
+            </node>
+            <node text="6.技能及特长">
+              <style>
+                <back_color>#80FF80</back_color>
+              </style>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>

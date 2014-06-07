@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="2.0.7.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <information>
+    <Author />
+    <Company />
+    <Version>1.0</Version>
+    <Description />
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts>
+    <chart name="New Chart" type="MindMap">
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+      </style>
+      <nodes>
+        <node text="JVM">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node text="数据类型" folded="True">
+              <style>
+                <back_color>LightGreen</back_color>
+              </style>
+              <nodes>
+                <node text="基本数据类型">
+                  <style>
+                    <back_color>LightGreen</back_color>
+                  </style>
+                  <nodes>
+                    <node text="整数类型">
+                      <style>
+                        <back_color>LightGreen</back_color>
+                      </style>
+                      <nodes>
+                        <node text="int">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                          <widgets>
+                            <widget type="NOTES" align="Right" hyperlink="">
+                              <description>32位有符号   10亿级别</description>
+                            </widget>
+                          </widgets>
+                        </node>
+                        <node text="long">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                          <widgets>
+                            <widget type="NOTES" align="Right" hyperlink="">
+                              <description>64位有符号</description>
+                            </widget>
+                          </widgets>
+                        </node>
+                        <node text="Char">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                          <widgets>
+                            <widget type="NOTES" align="Right" hyperlink="">
+                              <description>16位无符号二进制补码表示的Unicode值，以UTF-16编码。默认为Unicode的null值
+(\u0000)</description>
+                            </widget>
+                          </widgets>
+                        </node>
+                        <node text="byte">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                          <widgets>
+                            <widget type="NOTES" align="Right" hyperlink="">
+                              <description>8位有符号二进制补码类型  -127 - 128</description>
+                            </widget>
+                          </widgets>
+                        </node>
+                        <node text="short">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                          <widgets>
+                            <widget type="NOTES" align="Right" hyperlink="">
+                              <description>16位有符号,−32768至32767</description>
+                            </widget>
+                          </widgets>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node text="布尔类型">
+                      <style>
+                        <back_color>LightGreen</back_color>
+                      </style>
+                      <nodes>
+                        <node text="true">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                        </node>
+                        <node text="false">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node text="returnAddress(指令编码)">
+                      <style>
+                        <back_color>LightGreen</back_color>
+                      </style>
+                    </node>
+                    <node text="浮点类型">
+                      <style>
+                        <back_color>LightGreen</back_color>
+                      </style>
+                      <nodes>
+                        <node text="单精度">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                        </node>
+                        <node text="双精度">
+                          <style>
+                            <back_color>LightGreen</back_color>
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="引用数据类型(指针)">
+                  <style>
+                    <back_color>LightGreen</back_color>
+                  </style>
+                  <nodes>
+                    <node text="类类型">
+                      <style>
+                        <back_color>LightGreen</back_color>
+                      </style>
+                    </node>
+                    <node text="接口类型">
+                      <style>
+                        <back_color>LightGreen</back_color>
+                      </style>
+                    </node>
+                    <node text="数组类型">
+                      <style>
+                        <back_color>LightGreen</back_color>
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="运行时数据区" folded="True">
+              <nodes>
+                <node text="PC寄存器" />
+                <node text="JVM栈">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>JVM Stack。每个JVM线程私有，存放局部变量，过程结果，方法返回值等</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="JVM堆">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>Heap 。线程公有的内存区，供类实例和数组实例分配内存的区域</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="方法区">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>位于堆中，存放类的元数据信息，比如运行时常量池，字段和方法数据</description>
+                    </widget>
+                  </widgets>
+                </node>
+                <node text="运行时常量池">
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>存放常量信息，位于方法区中。在类或接口加载到JVM时就被创建出来</description>
+                    </widget>
+                  </widgets>
+                </node>
+              </nodes>
+            </node>
+            <node text="栈帧Frame" folded="True">
+              <nodes>
+                <node text="局部变量表" />
+                <node text="操作数据栈" />
+                <node text="动态链接" />
+                <node text="方法正常调用完成" />
+                <node text="方法异常调用完成" />
+              </nodes>
+            </node>
+            <node text="JIT">
+              <widgets>
+                <widget type="NOTES" align="Right" hyperlink="">
+                  <description>Just in time code generator， 即时代码生成器，将代码编译成宿主CPU的代码指令集</description>
+                </widget>
+              </widgets>
+            </node>
+            <node text="Class文件结构">
+              <nodes>
+                <node text="Magic" />
+                <node text="Minor version and Major version" />
+                <node text="Constant pool" />
+                <node text="Constant pool count" />
+                <node text="Access flag" />
+                <node text="this_class" />
+                <node text="super class" />
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>

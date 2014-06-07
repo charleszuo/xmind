@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="2.0.7.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <information>
+    <Author />
+    <Company />
+    <Version>1.0</Version>
+    <Description />
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts>
+    <chart name="New Chart" type="MindMap">
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+      </style>
+      <nodes>
+        <node text="人际关系">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node text="度量">
+              <nodes>
+                <node text="定义模型">
+                  <nodes>
+                    <node text="将人和他所有的数据来源绑定">
+                      <nodes>
+                        <node text="每种数据来源有一个权值" />
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="来源">
+              <nodes>
+                <node text="手机" />
+                <node text="电脑SNS" />
+                <node text="手机SNS" />
+              </nodes>
+            </node>
+            <node text="如何获取数据">
+              <nodes>
+                <node text="短信" />
+                <node text="电话记录" />
+                <node text="浏览器监控SNS" />
+                <node text="手机拦截SNS" />
+              </nodes>
+            </node>
+            <node text="如何展示结果">
+              <nodes>
+                <node text="以圆圈展示亲密程度">
+                  <style>
+                    <back_color>LightSalmon</back_color>
+                  </style>
+                  <widgets>
+                    <widget type="NOTES" align="Right" hyperlink="">
+                      <description>已经有一个类似的idea publish了</description>
+                    </widget>
+                  </widgets>
+                </node>
+              </nodes>
+            </node>
+            <node text="提醒联系频率低的人" />
+          </nodes>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>
